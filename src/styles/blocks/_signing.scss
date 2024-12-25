@@ -1,0 +1,48 @@
+.signing {
+  padding-top: 150px;
+  color: #fff;;
+}
+
+.signing_inner {
+  @include inner;
+}
+
+.signing_row {
+  display: flex;
+  gap: 48px;
+}
+
+.signing_adresses {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.signing_item {
+  padding: 35px 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #018ABE;
+  border-radius: 10px;
+}
+
+.signing_title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+}
+
+.signing_info {
+  display: flex;
+  gap: 20px;
+}
+
+.signing_btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 9px 15px;
+  text-decoration: none;
+  color: #018ABE;
+  background-color: #fff;
+}
