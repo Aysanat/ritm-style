@@ -1,0 +1,17 @@
+.footer {
+  padding: 90px 0 30px;
+  color: #fff;;
+}
+
+.footer_inner {
+  @include inner;
+}
+
+.footer_row {
+  display: flex;
+}
+
+.footer_copy {
+  margin-right: auto;
+}
+

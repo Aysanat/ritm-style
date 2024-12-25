@@ -1,0 +1,48 @@
+.about {
+  padding-top: 150px;
+  color: #fff;
+}
+
+.about_inner {
+  @include inner;
+}
+
+.about_title {
+  @include title;
+}
+
+.about_row {
+  display: flex;
+  align-items: center;
+  gap: 84px;
+
+  &.margin {
+    margin-bottom: 100px;
+  }
+}
+
+.about_half {
+  flex-basis: calc(50% - 84px / 2);
+}
+
+.about_heading {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+}
+
+.about_text {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22.4px;
+
+  &.margin {
+    margin-bottom: 16px;
+  }
+}
+
+.about_image {
+  width: 100%;
+  border-radius: 10px;
+}

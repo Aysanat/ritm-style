@@ -1,0 +1,28 @@
+.card {
+  flex-basis: calc(50% - 24px / 2);
+  position: relative;
+}
+
+.card_visual {
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card_image {
+  border-radius: 10px;
+}
+
+.card_text {
+  padding-left: 50px;
+  padding-bottom: 15px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+  color: #fff;
+}

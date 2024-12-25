@@ -1,0 +1,25 @@
+.session {
+  padding-top: 150px;
+}
+
+.session_inner {
+  @include inner;
+}
+
+.session_title {
+  @include title;
+}
+
+.session_row {
+  margin-top: 100px;
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
+}
+
+.session_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 24px;
+}

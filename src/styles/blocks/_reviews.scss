@@ -1,0 +1,11 @@
+.reviews {
+  padding-top: 150px;
+}
+
+.reviews_inner {
+  @include inner;
+}
+
+.reviews_title {
+  @include title;
+}
