@@ -28,6 +28,7 @@
 }
 
 .signing_title {
+  font-family: 'El Messiri', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 33.6px;
@@ -39,10 +40,12 @@
 }
 
 .signing_btn {
+  width: fit-content;
   margin-top: 10px;
   display: inline-block;
   padding: 9px 15px;
   text-decoration: none;
   color: #018ABE;
   background-color: #fff;
+  border-radius: 10px;
 }
