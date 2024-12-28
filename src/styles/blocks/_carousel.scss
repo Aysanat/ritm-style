@@ -1,0 +1,56 @@
+.carousel {
+  padding-top: 100px;
+  width: 100%;
+  transform-style: preserve-3d;
+}
+
+.carousel_row {
+  display: flex;
+}
+
+.carousel_input {
+  display: none;
+}
+
+.carousel_label {
+  position: absolute;
+  width: fit-content;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform .4s ease;
+  cursor: pointer;
+}
+
+.carousel_item {
+  width: 600px;
+  height: 350px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 60px 56px 60px;
+  color: #fff;
+  background-color: #018ABE;
+  border-radius: 10px;
+}
+
+#item-1:checked ~ .carousel_row #slide-3, #item-2:checked ~ .carousel_row #slide-1, #item-3:checked ~ .carousel_row #slide-2 {
+  transform: translatex(-40%) scale(.8);
+  opacity: .4;
+  z-index: 0;
+  margin-left: -0%;
+}
+
+#item-1:checked ~ .carousel_row #slide-2, #item-2:checked ~ .carousel_row #slide-3, #item-3:checked ~ .carousel_row #slide-1 {
+  transform: translatex(40%) scale(.8);
+  opacity: .4;
+  z-index: 0;
+  margin-right: -0%;
+}
+
+#item-1:checked ~ .carousel_row #slide-1, #item-2:checked ~ .carousel_row #slide-2, #item-3:checked ~ .carousel_row #slide-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+}

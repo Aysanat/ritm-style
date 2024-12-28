@@ -1,5 +1,6 @@
 .reviews {
   padding-top: 150px;
+  padding-bottom: 300px
 }
 
 .reviews_inner {
@@ -8,4 +9,16 @@
 
 .reviews_title {
   @include title;
+}
+
+.reviews_name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.reviews_text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19.6px;
 }

@@ -120,10 +120,37 @@
             <i class="icon_inside" style="background-image: url('images/rs-icon-right.svg');"></i>
           </div>
         </div>
-        <div class="reviews_item">
-          <strong class="reviews_name">Кира Иванова</strong>
-          <p class="reviews_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
-          <p class="reviews_text">Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis. </p>
+
+        <div class="carousel">
+          <input class="carousel_input" type="radio" name="slider" id="item-1" checked>
+          <input class="carousel_input" type="radio" name="slider" id="item-2">
+          <input class="carousel_input" type="radio" name="slider" id="item-3">
+
+          <div class="carousel_row">
+            <label id="slide-1" for="item-1" class="carousel_label">
+              <div class="carousel_item">
+                <strong class="reviews_name">Александра Дмитриева</strong>
+                <p class="reviews_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
+                <p class="reviews_text">Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis. </p>
+              </div>
+            </label>
+
+            <label id="slide-2" for="item-2" class="carousel_label">
+              <div class="carousel_item 2">
+                <strong class="reviews_name">Кира Иванова</strong>
+                <p class="reviews_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
+                <p class="reviews_text">Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis. </p>
+              </div>
+            </label>
+
+            <label id="slide-3" for="item-3" class="carousel_label">
+              <div class="carousel_item">
+                <strong class="reviews_name">Яна Жернова</strong>
+                <p class="reviews_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Netus diam risus morbi nulla dictum. Urna mi orci gravida placerat amet, eu, aliquet facilisis aliquet. Dolor praesent nam ornare fringilla enim nibh donec sit imperdiet. Amet, diam duis eu sit et. Volutpat vestibulum a lectus sed blandit.</p>
+                <p class="reviews_text">Venenatis urna mattis eu enim molestie iaculis et aliquet. Velit in pellentesque vestibulum phasellus orci. Fermentum sed phasellus aliquam nulla non aenean. Quisque id nunc, mauris potenti a massa. Fermentum at elit, convallis leo dolor aliquet id elementum. Ullamcorper sociis et cum bibendum in egestas. Diam, urna, sed tempus mollis aliquam elit. Facilisi nam nulla pulvinar mauris vel lacinia venenatis. </p>
+              </div>
+            </label>
+          </div>
         </div>
       </div>
     </section>
@@ -303,6 +330,7 @@
   </footer>
 
   <script src="scripts/script.js"></script>
+  <script src="scripts/jquery-3.7.1.min.js"></script>
 </body>
 
 </html>
