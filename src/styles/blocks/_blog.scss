@@ -1,0 +1,24 @@
+.blog {
+  padding: 60px 0 120px;
+}
+
+.blog_inner {
+  @include inner;
+}
+
+.blog_title {
+  @include title;
+}
+
+.blog_item {
+  padding: 50px 60px;
+  color: #fff;
+  border: 2px solid $color-accent;
+  border-radius: 20px;
+}
+
+.blog_row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}

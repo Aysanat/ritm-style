@@ -13,3 +13,10 @@ $color-accent: #018ABE;
 // indents
 
 // breakpoints
+
+$mobile: 360px;
+$tablet: 768px;
+$desctop: 1278px;
+
+$mobile-max: 768px - 1px;
+$tablet-max: 1278px - 1px;
