@@ -1,0 +1,13 @@
+.article {
+  padding: 60px 0 161px;
+}
+
+.article_inner {
+  @include inner;
+}
+
+.article_title {
+  @include title;
+}
+
+
