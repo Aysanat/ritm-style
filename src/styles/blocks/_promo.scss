@@ -7,13 +7,25 @@
   // background-size: cover;
 }
 
+.promo_inner {
+  @include inner;
+}
+
+.promo_fade {
+  position: relative;
+  width: 100%;
+  background-color: rgba( #98C9DC, .5);
+}
+
 .promo_visual {
+  z-index: -1;
   position: relative;
 }
 
 .promo_content {
+  z-index: 100;
   position: absolute;
-  top: 35%;
+  top: 136px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -21,6 +33,7 @@
 }
 
 .promo_text {
+  margin-bottom: 40px;
   font-family: 'El Messiri', sans-serif;
   font-size: 24px;
   font-weight: 700;

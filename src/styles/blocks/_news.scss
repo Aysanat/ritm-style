@@ -1,0 +1,11 @@
+.news {
+  padding: 60px 0 120px;
+}
+
+.news_inner {
+  @include inner;
+}
+
+.news_title {
+  @include title;
+}

@@ -1,5 +1,9 @@
 .header {
-  padding: 30px 0 70px
+  padding: 30px 0 70px;
+
+  &.header-news {
+    padding-bottom: 0;
+  }
 }
 
 .header_inner {
@@ -10,6 +14,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  &.header_row-news {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(#fff, .3);
+  }
 }
 
 .header_logo {
@@ -35,9 +44,14 @@
   list-style: none;
 }
 
-.menu_item a {
+.menu_link {
   text-decoration: none;
   color: #fff;
+  transition: color .3s;
+
+  &:hover {
+    color: $color-accent;
+  }
 }
 
 .header_btn {
@@ -45,6 +59,6 @@
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  background-color: #018ABE;
+  background-color: $color-accent;
   border-radius: 3px;
 }

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Мой первый проект</title>
+  <title>Главная</title>
   <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -13,13 +13,13 @@
     <div class="header_inner">
       <div class="header_row">
         <div class="header_logo">
-          <a href="#" class="logo" style="background-image: url(images/rs-logo.svg);"></a>
+          <a href="index.html" class="logo" style="background-image: url(images/rs-logo.svg);"></a>
         </div>
 
         <nav class="menu">
           <ul class="menu_list">
             <li class="menu_item">
-              <a href="" class="menu_link">Главная</a>
+              <a href="index.html" class="menu_link">Главная</a>
             </li>
             <li class="menu_item">
               <a href="" class="menu_link">Сеансы</a>
@@ -31,7 +31,7 @@
               <a href="" class="menu_link">Контакты</a>
             </li>
             <li class="menu_item">
-              <a href="" class="menu_link">Новости</a>
+              <a href="news.html" class="menu_link">Новости</a>
             </li>
             <li class="menu_item">
               <a href="" class="menu_link">Обо мне</a>
@@ -50,18 +50,20 @@
   <main>
     <section class="promo">
       <div class="promo_inner">
-        <div class="promo_visual">
-          <img src="images/rs-promo.png" alt="" class="promo_image">
+        <div class="promo_fade">
+          <div class="promo_visual">
+            <img src="images/rs-promo.png" alt="" class="promo_image">
+          </div>
           <div class="promo_content">
             <p class="promo_text">Укрепление здоровья</p>
-            <h1 class="promo_title">Акватерапия
+            <h1 class="promo_title">Акватерапия <br>
             RitmStyle</h1>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="session">
+    <section id="session" class="session">
       <div class="session_inner">
         <div class="icon_row">
           <div class="icon">
@@ -73,43 +75,43 @@
           </div>
         </div>
         <div class="session_row">
-          <div class="card">
+          <article class="card">
             <div class="card_visual">
               <img src="images/rs-session.jpg" alt="" class="card_image">
             </div>
             <p class="card_text">Стандартный RitmStyle</p>
-          </div>
-          <div class="session_wrap">
-            <div class="card">
+          </article>
+          <div class="cards_wrap">
+            <article class="card">
               <div class="card_visual">
                 <img src="images/rs-session-wrap.jpg" alt="" class="card_image">
               </div>
               <p class="card_text">RitmStyle для пар</p>
-            </div>
-            <div class="card">
+            </article>
+            <article class="card">
               <div class="card_visual">
                 <img src="images/rs-session-wrap.jpg" alt="" class="card_image">
               </div>
               <p class="card_text">RitmStyle с полным погружением под воду</p>
-            </div>
-            <div class="card">
+            </article>
+            <article class="card">
               <div class="card_visual">
                 <img src="images/rs-session-wrap.jpg" alt="" class="card_image">
               </div>
               <p class="card_text">RitmStyle для беременных</p>
-            </div>
-            <div class="card">
+            </article>
+            <article class="card">
               <div class="card_visual">
                 <img src="images/rs-session-wrap.jpg" alt="" class="card_image">
               </div>
               <p class="card_text">RitmStyle + красочная подводная фотосессия</p>
-            </div>
+            </article>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="reviews">
+    <section id="reviews" class="reviews">
       <div class="reviews_inner">
         <div class="icon_row">
           <div class="icon">
@@ -155,7 +157,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
       <div class="about_inner">
         <div class="icon_row">
           <div class="icon">
@@ -260,11 +262,15 @@
       </div>
     </section>
 
-    <section class="signing">
+    <section id="contacts" class="signing">
       <div class="signing_inner">
         <div class="signing_row">
           <div class="signing_visual">
-            <img src="images/rs-signing-map.jpg" alt="" class="signing_image">
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/nevskiy_140/1038034625/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Невский 140</a><a href="https://yandex.ru/maps/2/saint-petersburg/category/business_center/184107509/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Бизнес-центр в Санкт‑Петербурге</a><iframe src="https://yandex.ru/map-widget/v1/?ll=30.368963%2C59.929847&mode=search&oid=1038034625&ol=biz&z=13.95" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            <!-- <img src="images/rs-signing-map.jpg" alt="" class="signing_image"> -->
+          </div>
+          <div class="signing_visual">
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/stops/station__9805938/?ll=30.259051%2C59.971836&tab=overview&utm_medium=mapframe&utm_source=maps&z=17.07" style="color:#eee;font-size:12px;position:absolute;top:14px;">Крестовский остров — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=30.259051%2C59.971836&masstransit%5BstopId%5D=station__9805938&mode=masstransit&tab=overview&z=17.07" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
           </div>
           <div class="signing_adresses">
             <div class="signing_item">
