@@ -6,6 +6,15 @@
 
   &.cards_wrap-news {
     padding-top: 60px;
+
+    @media (max-width: $mobile-max) {
+      padding-top: 40px;
+    }
+  }
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
@@ -20,6 +29,10 @@
 
   &.card-news {
     flex-basis: calc(33.33% - 48px / 3);
+
+    @media (max-width: $tablet-max) {
+      flex-basis: calc(50% - 24px / 2);
+    }
   }
 }
 
@@ -37,8 +50,8 @@
 }
 
 .card_text {
-  padding-left: 50px;
-  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-bottom: 30px;
   bottom: 0;
   left: 0;
   position: absolute;

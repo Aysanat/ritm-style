@@ -3,6 +3,14 @@
   align-items: center;
   justify-content: center;
   gap: 45px;
+
+  @media (max-width: $tablet-max) {
+    gap: 30px;
+  }
+
+  @media (max-width: $mobile-max) {
+    gap: 20px;
+  }
 }
 
 .icon {

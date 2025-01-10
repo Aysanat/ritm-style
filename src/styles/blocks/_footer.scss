@@ -5,6 +5,10 @@
   &.footer-news {
     padding-top: 0;
   }
+
+  @media (max-width: $mobile-max) {
+    padding-bottom: 15px;
+  }
 }
 
 .footer_inner {
@@ -17,10 +21,32 @@
   &.footer_row-news {
     padding-top: 30px;
     border-top: 1px solid rgba(#fff, .3);
+
+    @media (max-width: $mobile-max) {
+      padding-top: 15px;
+    }
+  }
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 .footer_copy {
   margin-right: auto;
+
+  @media (max-width: $mobile-max) {
+    margin-right: 0;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.footer_maked {
+  @media (max-width: $mobile-max) {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 

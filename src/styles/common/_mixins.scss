@@ -12,4 +12,14 @@
   line-height: 58.8px;
   text-align: center;
   color: #fff;
+
+  @media (max-width: $tablet-max) {
+    font-size: 38px;
+    line-height: 40px;
+  }
+
+  @media (max-width: $mobile-max) {
+    font-size: 26px;
+    line-height: 30px;
+  }
 }

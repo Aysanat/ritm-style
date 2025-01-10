@@ -1,5 +1,9 @@
 .news {
   padding: 60px 0 120px;
+
+  @media (max-width: $mobile-max) {
+    padding: 40px 0 100px;
+  }
 }
 
 .news_inner {
