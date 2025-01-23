@@ -9,6 +9,7 @@
 
 .signing_row {
   display: flex;
+  align-items: center;
   gap: 48px;
 }
 
@@ -29,11 +30,11 @@
 }
 
 .signing_visual {
-  display: none;
+  // display: none;
 
-  &.active {
-    display: block;
-  }
+  // &.active {
+  //   display: block;
+  // }
 }
 
 .signing_title {
